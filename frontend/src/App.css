@@ -1,0 +1,128 @@
+body {
+  background-color: lightcyan;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.add-employee-form {
+  padding: 20px 30px;
+  align-self: baseline;
+}
+
+.employee-list-wrapper {
+  background-color: white;
+  margin-right: 100px;
+  border: 2px solid slategray;
+  border-radius: 3px;
+  align-self: flex-start;
+}
+
+.employee-name {
+  font-weight: bold;
+  font-size: medium;
+  padding-bottom: 5px;
+}
+
+.employee-item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  font-size: small;
+  border-bottom: 2px solid gray;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.employee-name, .position {
+  text-transform: capitalize;
+}
+
+.edit-delete {
+  padding-top: 10px;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 5px;
+  font-size: smaller;
+}
+
+.edit-button {
+  color: navy;
+  background-color: lightblue;
+  font-weight: bold;
+  margin-right: 5px;
+  border-radius: 3px;
+  border-width: 1px;
+  padding: 5px;
+}
+
+.delete {
+  color: maroon;
+  background-color: lightpink;
+}
+
+form {
+  background-color: rgb(226, 223, 223);
+  border: 3px solid slategray;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+
+
+.modal-table-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input:required {
+  border-color: salmon;
+}
+
+input:required:invalid {
+  border-color: maroon;
+}
+
+input {
+  color: black;
+}
+
+input[type="submit"] {
+  margin-top: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+td {
+  padding-bottom: 10px;
+}
+
+td > input {
+  padding: 3px;
+}
+
+#employee-heading {
+  display: block;
+  justify-self: center;
+}
+
+#employee-edit {
+  margin-right: 10px;
+}
